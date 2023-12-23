@@ -27,6 +27,7 @@
     </form>
         <nav>
             <a href="http://localhost/nagoyameshi/public/company">会社概要</a>
+            <a href="http://localhost/nagoyameshi/public/service">利用規約</a>
             <a href="http://localhost/nagoyameshi/public/login">ログイン</a>
             <a href="http://localhost/nagoyameshi/public/register">新規登録</a>
         </nav>
@@ -37,3 +38,4 @@
   </body>
 
   </html>
+

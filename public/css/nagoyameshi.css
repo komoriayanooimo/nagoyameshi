@@ -108,3 +108,23 @@ select {
     top: 120px;
     left: 10px; 
 }
+
+#d {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.e {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.f {
+    color: #ffffff;
+    text-align: center;
+    position: relative; 
+    top: 500px;
+    left: 10px; 
+}
