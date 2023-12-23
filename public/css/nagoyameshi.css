@@ -53,3 +53,58 @@
     letter-spacing: normal;
     color: #0fbe9f;
 }
+
+#a {
+    color: #ffffff;
+    text-align: center;
+}
+
+#b {
+    color: #ffffff;
+    text-align: center;
+    position: relative; 
+    top: 120px;
+    left: 10px; 
+}
+
+nav {
+    float: right;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+body {
+    background-color: #be780f;
+}
+
+input[type="search"] {
+    font-size: 22px;
+    position: relative; 
+    top: 100px;
+    left: 1000px; 
+}
+
+input[type="submit"] {
+    font-size: 22px;
+    position: relative; 
+    top: 100px;
+    left: 1000px; 
+}
+
+select {
+    font-size: 22px;
+    position: relative; 
+    top: 100px;
+    left: 1000px; 
+}
+
+.c {
+    color: #ffffff;
+    text-align: center;
+    position: relative; 
+    top: 120px;
+    left: 10px; 
+}
