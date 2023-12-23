@@ -128,3 +128,41 @@ select {
     top: 500px;
     left: 10px; 
 }
+
+#g {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.h {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.i {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin: auto
+}
+
+.j {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+#k {
+    color: #ffffff;
+    text-align: center;
+}
+
+.m {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 670px;
+}

@@ -35,4 +35,9 @@ class HomeController extends Controller
     {
         return view('company');
     }
+
+    public function edit()
+    {
+        return view('edit.password');
+    }
 }
