@@ -26,9 +26,9 @@
       <input type="submit" name="submit" value="検索">
     </form>
         <nav>
-            <a href="">会社概要</a>
-            <a href="">ログイン</a>
-            <a href="">新規登録</a>
+            <a href="http://localhost/nagoyameshi/public/company">会社概要</a>
+            <a href="http://localhost/nagoyameshi/public/login">ログイン</a>
+            <a href="http://localhost/nagoyameshi/public/register">新規登録</a>
         </nav>
     <img src="img/breads_color.png">
     <footer>
