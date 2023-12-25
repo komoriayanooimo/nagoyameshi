@@ -10,7 +10,7 @@
     <header>
         <h1 id="a">NAGOYAMESHI</h1>
     </header>
-    <form action="" method="post">
+
         <div class="h">
         <a  href="http://localhost/nagoyameshi/public/">戻る</a><br>
         </div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StoreController;
+use App\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +25,5 @@ Auth::routes(['verify' => true]);
 Route::get('/home',[App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/service', [App\Http\Controllers\HomeController::class, 'showw'])->name('service');
 Route::get('/company', [App\Http\Controllers\HomeController::class, 'show'])->name('company');
-Route::get('/edit.password', [App\Http\Controllers\HomeController::class, 'edit'])->name('edit.password');
+
+Route::get('/users', [UsersController::class, 'edit'])->name('users.edit');
