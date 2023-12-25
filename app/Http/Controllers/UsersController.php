@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     public function edit() {
-        return views('users.edit');
+        return view('users.edit');
     }
 }

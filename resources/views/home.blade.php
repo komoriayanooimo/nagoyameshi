@@ -14,7 +14,7 @@
         <h2 id="d">マイページ</h2>
         <div class="e">
         <a  href="http://localhost/nagoyameshi/public/">戻る</a><br>
-            <a href="http://localhost/nagoyameshi/public/edit.password"><会員情報編集><br>
+            <a href="http://localhost/nagoyameshi/public/users"><会員情報編集><br>
             <a href="http://localhost/nagoyameshi/public/reservation"><予約一覧><br>
             <a href="http://localhost/nagoyameshi/public/edit.credit"><クレジットカード情報編集><br>
             <a href="http://localhost/nagoyameshi/public/paid"><有料会員解約><br>

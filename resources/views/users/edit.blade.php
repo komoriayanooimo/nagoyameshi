@@ -14,7 +14,7 @@
         <div class="h">
         <a  href="http://localhost/nagoyameshi/public/">戻る</a><br>
         </div>
-        <h2 id="k">利用規約</h2>
+        <h2 id="k">利用規約aaaa</h2>
         <nav>
             <a href="http://localhost/nagoyameshi/public/company">会社概要</a>
             <a href="http://localhost/nagoyameshi/public/home">マイページ</a>
