@@ -47,7 +47,7 @@ class StoreController extends Controller
         $store->category_id = $request->input('category_id');
         $store->save();
 
-        return to_route('storets.index');
+        return to_route('stores.index');
     }
 
     /**
@@ -85,7 +85,7 @@ class StoreController extends Controller
     {
         $store->name = $request->input('name');
         $store->explanation = $request->input('explanation');
-        $product->category_id = $request->input('category_id');
+        $store->category_id = $request->input('category_id');
         $store->update();
 
         return to_route('stores.index');

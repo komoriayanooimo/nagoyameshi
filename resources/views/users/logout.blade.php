@@ -14,7 +14,7 @@
         <div class="h">
         <a  href="http://localhost/nagoyameshi/public/">戻る</a><br>
         </div>
-        <h2 class="k">予約一覧</h2>
+        <h2 class="mt-3">ログアウトしました</h2>
 
 
         <nav>

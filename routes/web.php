@@ -26,4 +26,8 @@ Route::get('/home',[App\Http\Controllers\HomeController::class, 'index'])->name(
 Route::get('/service', [App\Http\Controllers\HomeController::class, 'showw'])->name('service');
 Route::get('/company', [App\Http\Controllers\HomeController::class, 'show'])->name('company');
 
-Route::get('/users', [UsersController::class, 'edit'])->name('users.edit');
+Route::get('/edit', [UsersController::class, 'edit'])->name('users.edit');
+Route::get('/credit', [UsersController::class, 'credit'])->name('users.credit');
+Route::get('/paid', [UsersController::class, 'paid'])->name('users.paid');
+Route::get('/reservation', [UsersController::class, 'reservation'])->name('users.reservation');
+Route::get('/logout', [UsersController::class, 'logout'])->name('users.logout');

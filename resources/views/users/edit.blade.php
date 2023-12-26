@@ -14,7 +14,7 @@
         <div class="h">
         <a  href="http://localhost/nagoyameshi/public/">戻る</a><br>
         </div>
-        <h2 id="k">会員情報編集</h2>
+        <h2 class="k">会員情報編集</h2>
         <div class="kk">
           <label>氏名</label>
           <input type="text" class="name" name="name" required="name" placeholder="小森綾乃"><br>
@@ -23,7 +23,7 @@
           <label>電話番号</label>
           <input type="text" class="tel" name="name" required="tel" placeholder="000-0000-0000"><br>
         </div>
-        <button type="submit" class="btn edit">編集</button>
+        <button type="submit" class="btn">編集</button>
 
         <nav>
             <a href="http://localhost/nagoyameshi/public/company">会社概要</a>

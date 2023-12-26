@@ -1,27 +1,21 @@
-<a href="{{ route('stores.create') }}"> Store New Product</a>
- 
- <table>
-     <tr>
-         <th>Name</th>
-         <th>Explanation</th>
-         <th>Category ID</th>
-         <th >Action</th>
-     </tr>
-     @foreach ($stores as $store)
-     <tr>
-         <td>{{ $store->name }}</td>
-         <td>{{ $store->description }}</td>
-         <td>{{ $store->price }}</td>
-         <td>{{ $store->category_id }}</td>
-         <td>
-         <form action="{{ route('stores.destroy',$store->id) }}" method="POST">
-             <a href="{{ route('stores.show',$product->id) }}">Show</a>
-             <a href="{{ route('stores.edit',$product->id) }}">Edit</a>
-             @csrf
-                 @method('DELETE')
-                 <button type="submit">Delete</button>
-             </form>
-         </td>
-     </tr>
-     @endforeach
- </table>
+ <div class="row">
+     <div class="col-9">
+         <div class="container mt-4">
+             <div class="row w-100">
+                 @foreach($stores as $store)
+                 <div class="col-3">
+                     <a href="{{route('stores.show', $store)}}">
+                         <img src="{{ asset('img/breads_color.png')}}" class="img-sushi>
+                     </a>
+                         <div class="col-12">
+                             <p class="nagoymeshisushi">
+                                 {{$store->name}}<br>
+                                 <label>説明{{$store->explanation}}</label>
+                             </p>
+                     </div>
+                 </div>
+                 @endforeach
+             </div>
+         </div>
+     </div>
+ </div>

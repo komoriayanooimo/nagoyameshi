@@ -166,3 +166,51 @@ select {
     position: relative;
     top: 670px;
 }
+
+.k {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.kk {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.name {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.email {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tel {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 1100px;
+}
+
+.mt-3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btncredit {
+    text-align: center;
+    font-size: 30px;
+}
