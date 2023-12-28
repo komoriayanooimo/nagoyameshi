@@ -15,12 +15,12 @@
       <input type="search" name="search" placeholder="店名">
       <br>
       <select name="categories">
-        <option value="cate">カテゴリ</option>
-        <option value="cate">寿司</option>
-        <option value="cate">焼肉</option>
-        <option value="cate">パスタ</option>
-        <option value="cate">中華</option>
-        <option value="cate">洋食</option>
+        <option value="categori">カテゴリ</option>
+        <option value="sushi">寿司</option>
+        <option value="meat">焼肉</option>
+        <option value="pasuta">パスタ</option>
+        <option value="tyuuka">中華</option>
+        <option value="yousyoku">洋食</option>
       </select>
       <br>
       <input type="submit" name="submit" value="検索">

@@ -70,7 +70,7 @@
                  </div>
  
                  <div class="form-group">
-                     <button type="submit" class="btn nagoyameshi-submit-button w-100">
+                     <button type="submit" class="btn100">
                          アカウント作成
                      </button>
                  </div>

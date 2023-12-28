@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StoreController;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('reviews', [ReviewController::class, 'store'])->name('reviews.store');
+
 Route::resource('stores', StoreController::class)->middleware(['auth', 'verified']);
 Auth::routes(['verify' => true]);
 
@@ -31,3 +35,5 @@ Route::get('/credit', [UsersController::class, 'credit'])->name('users.credit');
 Route::get('/paid', [UsersController::class, 'paid'])->name('users.paid');
 Route::get('/reservation', [UsersController::class, 'reservation'])->name('users.reservation');
 Route::get('/logout', [UsersController::class, 'logout'])->name('users.logout');
+
+Route::get('/category/{id}',[CategoryController::class, 'show']);

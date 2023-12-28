@@ -4,7 +4,7 @@
  <div class="container">
      <div class="row justify-content-center">
          <div class="col-md-5">
-             <h3 class="mt-3 mb-3">ログイン</h3>
+             <h3 class="login">ログイン</h3>
  
              <hr>
              <form method="POST" action="{{ route('login') }}">
@@ -41,11 +41,12 @@
                  </div>
  
                  <div class="form-group">
-                     <button type="submit" class="mt-3 btn nagoyameshi-submit-button w-100">
+                     <button type="submit" class="loginword">
                          ログイン
                      </button>
- 
-                     <a class="btn btn-link mt-3 d-flex justify-content-center nagoyameshi-login-text" href="{{ route('password.request') }}">
+                </div>
+                <div>
+                     <a class="logintext" href="{{ route('password.request') }}">
                          パスワードをお忘れの場合
                      </a>
                  </div>
@@ -54,7 +55,7 @@
              <hr>
  
              <div class="form-group">
-                 <a class="btn btn-link mt-3 d-flex justify-content-center nagoyameshi-login-text" href="{{ route('register') }}">
+                 <a class="loginsinki" href="{{ route('register') }}">
                      新規登録
                  </a>
              </div>
